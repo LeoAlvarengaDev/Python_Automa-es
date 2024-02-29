@@ -18,7 +18,7 @@ MESSAGE_SENT = (
 )
 
 # Carregando números de telefone a partir de um arquivo Excel
-numbers_df = pd.read_excel("E:\\Python\\Klauber\\venv\\contatos.xlsx")
+numbers_df = pd.read_excel("E:\\Python\\contatos.xlsx")
 print(numbers_df)
 
 # Inicializando o navegador Chrome
