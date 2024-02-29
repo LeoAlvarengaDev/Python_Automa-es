@@ -26,7 +26,7 @@ browser = webdriver.Chrome()
 browser.get("https://web.whatsapp.com")
 
 # Espera até que o QR Code seja escaneado
-wait = WebDriverWait(browser, 30)  # Aumentei o tempo de espera para dar mais tempo de escanear o QR Code
+wait = WebDriverWait(browser, 30)  #Tempo de espera para dar mais tempo de escanear o QR Code
 
 
 # Enviando mensagens
